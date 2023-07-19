@@ -42,14 +42,15 @@ const About = () => {
     <>
       <motion.div>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Education.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 
       >
-       Hello! Im a skilled software developer and would like to work as data scientist.
+       Hello! Im a Final Year Student studying Imperial College London in Master of Biomedical Engineering from 10/2020 to 07/2024, On track with 2:1 Second Upper Class.
+       Click the box to check out more information.
 
       </motion.p>
 
