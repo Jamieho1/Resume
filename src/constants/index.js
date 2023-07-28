@@ -1,5 +1,5 @@
 import {
-    backend,
+    // backend,
     javascript,
     typescript,
     html,
@@ -16,19 +16,19 @@ import {
     jobit,
     tripguide,
     threejs,
-    python,
+    python, 
     MySQL,
     matlab,
     orii,
     koln3d,
     bloomberg,
     excel,
-    imperial,
+    // imperial,
     stockhub,
-    icinvestmentsoc,
+    // icinvestmentsoc,
   } from "../assets";
 
-  const navLinks = [
+ const navLinks = [
   {
     id: "about",
     title: "About",
@@ -44,20 +44,20 @@ import {
   
 ];
 
-const services = [
-  {
-    title: "Full Stack Developer",
-    icon: backend,
-  },
-  {
-    title: "Final Year Student",
-    icon: imperial,
-  },
-  {
-    title: "Head of Portfolio Management & TMT Sector",
-    icon: icinvestmentsoc,
-  },
-];
+// const services = [
+//   {
+//     title: "Full Stack Developer",
+//     icon: backend,
+//   },
+//   {
+//     title: "Final Year Student",
+//     icon: imperial,
+//   },
+//   {
+//     title: "Head of Portfolio Management & TMT Sector",
+//     icon: icinvestmentsoc,
+//   },
+// ];
 
 const technologies = [
   {
@@ -299,4 +299,4 @@ const projects = [
   },
 ];
 
-export default { navLinks, services, technologies, experiences, testimonials, projects };
+export { navLinks, technologies, experiences, testimonials, projects };
