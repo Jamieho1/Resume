@@ -41,9 +41,12 @@ import bloomberg from './tech/Bloomberg.png';
 import excel from './tech/excel.png';
 import orii from './company/Orii.png';
 import stockhub from './company/stockhub.png';
+import linkedin from './linkedin.png';
+import phone from './phone.jpeg';
 
-
-export default {
+export {
+  phone,
+  linkedin,
   stockhub,
   orii, 
   excel,
