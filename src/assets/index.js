@@ -26,12 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import carrent from "./tech/carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import python from './python.png';
-import matlab from './matlab.png';
-import koln3d from './koln3d.png';
+import matlab from './tech/matlab.png';
+import koln3d from './company/koln3d.png';
 import gmail from './gmail.png';
 
 
