@@ -21,15 +21,15 @@ import {
     threejs,
   } from "../assets";
 import python from "../assets";
-import MySQL from '../assets/tech';
-import matlab from '../assets/tech';
-import orii from '../assets/company';
-import koln3d from '../assets/company';
-import bloomberg from '../assets/tech';
-import excel from "../assets/tech";
+import MySQL from '../assets';
+import matlab from '../assets';
+import orii from '../assets';
+import koln3d from '../assets';
+import bloomberg from '../assets';
+import excel from "../assets";
 import imperial from '../assets';
-import stockhub from '../assets/company';
-import icinvestmentsoc from '../assets/company';
+import stockhub from '../assets';
+import icinvestmentsoc from '../assets';
 import datascience from '../assets';
 
   export const navLinks = [
