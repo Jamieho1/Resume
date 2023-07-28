@@ -21,16 +21,16 @@ import {
     threejs,
   } from "../assets";
 import python from "../assets";
-import MySQL from '/../assets/tech';
-import matlab from '/../assets/tech';
-import orii from '/../assets/company';
-import koln3d from '/../assets/company';
-import bloomberg from '/../assets/tech';
-import excel from "/../assets/tech";
-import imperial from '/../assets';
-import stockhub from '/../assets/company';
-import icinvestmentsoc from '/../assets/company';
-import datascience from '/../assets';
+import MySQL from '../assets/tech';
+import matlab from '../assets/tech';
+import orii from '../assets/company';
+import koln3d from '../assets/company';
+import bloomberg from '../assets/tech';
+import excel from "../assets/tech";
+import imperial from '../assets';
+import stockhub from '../assets/company';
+import icinvestmentsoc from '../assets/company';
+import datascience from '../assets';
 
   export const navLinks = [
     {
