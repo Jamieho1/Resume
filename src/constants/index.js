@@ -1,8 +1,5 @@
 import {
-    mobile,
     backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -29,7 +26,6 @@ import {
     imperial,
     stockhub,
     icinvestmentsoc,
-    datascience
   } from "../assets";
 
   export const navLinks = [
@@ -49,10 +45,6 @@ import {
   ];
   
   const services = [
-    {
-      title: "Data Scientist",
-      icon: datascience,
-    },
     {
       title: "Full Stack Developer",
       icon: backend,
