@@ -82,5 +82,5 @@ export default {
   jobit,
   tripguide,
   python,
-  datascience
+  datascience,
 };
