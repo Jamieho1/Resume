@@ -33,7 +33,7 @@ import python from './python.png';
 import matlab from './tech/matlab.png';
 import koln3d from './company/koln3d.png';
 import gmail from './gmail.png';
-
+import datascience from './DataScience.png';
 
 export {
   gmail,
@@ -68,4 +68,5 @@ export {
   jobit,
   tripguide,
   python,
+  datascience
 };
