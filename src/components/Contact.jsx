@@ -5,10 +5,14 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import linkedin from '../assets';
-import github from '../assets';
-import gmail from '../assets';
-import phone from '../assets';
+import assets from '../assets'; // Import the entire assets object
+
+// Now access individual assets like this:
+const linkedin = assets.linkedin;
+const github = assets.github;
+const gmail = assets.gmail;
+const phone = assets.phone;
+
 const Contact = () => {
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
