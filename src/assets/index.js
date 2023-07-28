@@ -41,6 +41,7 @@ import bloomberg from './tech/Bloomberg.png';
 import excel from './tech/excel.png';
 import orii from './company/Orii.png';
 import stockhub from './company/stockhub.png';
+import datascience from './DataScience.png';
 
 export default {
   stockhub,
