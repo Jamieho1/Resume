@@ -38,7 +38,7 @@ import imperial from './Imperial_logo.jpeg';
 import icinvestmentsoc from './company/icinvestmentsoc.png';
 import MySQL from './tech/MySQL.png';
 import bloomberg from './tech/Bloomberg.png';
-import excel from ',/tech/excel.png';
+import excel from './tech/excel.png';
 
 export {
   excel,
