@@ -20,7 +20,7 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import python from "../src/assets/tech/python.png";
+import python from "../src/assets/python.png";
 import MySQL from '../src/assets/tech/MySQL.png';
 import matlab from '../src/assets/tech/matlab.png';
 import orii from '../src/assets/company/Orii.png';
