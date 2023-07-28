@@ -307,4 +307,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export default { services, technologies, experiences, testimonials, projects };
