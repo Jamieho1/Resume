@@ -29,7 +29,7 @@ import {
     datascience
   } from "../assets";
 
-export const navLinks = [
+  const navLinks = [
   {
     id: "about",
     title: "About",
@@ -304,4 +304,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export default { navLinks, services, technologies, experiences, testimonials, projects };
