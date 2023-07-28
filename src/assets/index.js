@@ -40,8 +40,10 @@ import MySQL from './tech/MySQL.png';
 import bloomberg from './tech/Bloomberg.png';
 import excel from './tech/excel.png';
 import orii from './company/Orii.png';
+import stockhub from './company/stockhub.png';
 
 export {
+  stockhub,
   orii, 
   excel,
   bloomberg,
