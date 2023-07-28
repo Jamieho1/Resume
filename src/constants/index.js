@@ -19,18 +19,18 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    MySQL,
+    matlab,
+    orii,
+    koln3d,
+    bloomberg,
+    excel,
+    imperial,
+    stockhub,
+    icinvestmentsoc,
+    datascience
   } from "../assets";
-import python from "../assets";
-import MySQL from '../assets';
-import matlab from '../assets';
-import orii from '../assets';
-import koln3d from '../assets';
-import bloomberg from '../assets';
-import excel from "../assets";
-import imperial from '../assets';
-import stockhub from '../assets';
-import icinvestmentsoc from '../assets';
-import datascience from '../assets';
 
   export const navLinks = [
     {
