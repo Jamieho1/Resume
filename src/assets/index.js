@@ -42,7 +42,7 @@ import excel from './tech/excel.png';
 import orii from './company/Orii.png';
 import stockhub from './company/stockhub.png';
 
-export {
+export default {
   stockhub,
   orii, 
   excel,
