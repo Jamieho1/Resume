@@ -33,7 +33,6 @@ import python from './python.png';
 import matlab from './tech/matlab.png';
 import koln3d from './company/koln3d.png';
 import gmail from './gmail.png';
-import datascience from './DataScience.png';
 import imperial from './Imperial_logo.jpeg';
 import icinvestmentsoc from './company/icinvestmentsoc.png';
 import MySQL from './tech/MySQL.png';
@@ -82,5 +81,4 @@ export default {
   jobit,
   tripguide,
   python,
-  datascience,
 };
