@@ -36,8 +36,10 @@ import gmail from './gmail.png';
 import datascience from './DataScience.png';
 import imperial from './Imperial_logo.jpeg';
 import icinvestmentsoc from './company/icinvestmentsoc.png';
+import MySQL from './tech/MySQL.png';
 
 export {
+  MySQL,
   icinvestmentsoc,
   imperial,
   gmail,
