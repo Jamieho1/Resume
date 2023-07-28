@@ -20,17 +20,17 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import python from "/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/tech/python.png";
-import MySQL from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/tech/MySQL.png';
-import matlab from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/tech/matlab.png';
-import orii from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/company/Orii.png';
-import koln3d from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/company/koln3d.png';
-import bloomberg from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/tech/Bloomberg.png';
-import excel from "/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/tech/excel.png";
-import imperial from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/Imperial_logo.jpeg';
-import stockhub from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/company/stockhub.png';
-import icinvestmentsoc from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/company/icinvestmentsoc.png';
-import datascience from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/DataScience.png';
+import python from "../src/assets/tech/python.png";
+import MySQL from '../src/assets/tech/MySQL.png';
+import matlab from '../src/assets/tech/matlab.png';
+import orii from '../src/assets/company/Orii.png';
+import koln3d from '../src/assets/company/koln3d-logo.png';
+import bloomberg from '../src/assets/tech/Bloomberg.png';
+import excel from "../src/assets/tech/excel.png";
+import imperial from '../src/assets/Imperial_logo.jpeg';
+import stockhub from '../src/assets/company/stockhub.png';
+import icinvestmentsoc from '../src/assets/company/icinvestmentsoc.png';
+import datascience from '../src/assets/DataScience.png';
 
   export const navLinks = [
     {
@@ -111,6 +111,10 @@ import datascience from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/
     {
       name: "Three JS",
       icon: threejs,
+    },
+    {
+      name: "MongodB",
+      icon: mongodB,
     },
     {
       name: "git",
