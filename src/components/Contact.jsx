@@ -5,10 +5,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import linkedin from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/linkedin.png';
-import github from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/github.png';
-import gmail from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/gmail.png';
-import phone from '/Users/shinghimho/Desktop/programming/3d_portfolio/src/assets/phone.jpeg';
+import linkedin from '../src/assets/linkedin.png';
+import github from '../src/assets/github.png';
+import gmail from '../src/assets/gmail.png';
+import phone from '../src/assets/phone.jpeg';
 const Contact = () => {
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>

@@ -29,8 +29,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import python from './python.png';
+import matlab from './matlab.png';
+import koln3d from './koln3d.png';
+import gmail from './gmail.png';
+
 
 export {
+  gmail,
+  koln3d,
+  matlab,
   logo,
   backend,
   creator,
@@ -59,4 +67,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
 };
