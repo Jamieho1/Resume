@@ -20,17 +20,17 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-import python from "../assets/python.png";
-import MySQL from '/../assets/tech/MySQL.png';
-import matlab from '/../assets/tech/matlab.png';
-import orii from '/../assets/company/Orii.png';
-import koln3d from '/../assets/company/koln3d-logo.png';
-import bloomberg from '/../assets/tech/Bloomberg.png';
-import excel from "/../assets/tech/excel.png";
-import imperial from '/../assets/Imperial_logo.jpeg';
-import stockhub from '/../assets/company/stockhub.png';
-import icinvestmentsoc from '/../assets/company/icinvestmentsoc.png';
-import datascience from '/../assets/DataScience.png';
+import python from "../assets";
+import MySQL from '/../assets/tech';
+import matlab from '/../assets/tech';
+import orii from '/../assets/company';
+import koln3d from '/../assets/company';
+import bloomberg from '/../assets/tech';
+import excel from "/../assets/tech";
+import imperial from '/../assets';
+import stockhub from '/../assets/company';
+import icinvestmentsoc from '/../assets/company';
+import datascience from '/../assets';
 
   export const navLinks = [
     {
@@ -114,7 +114,7 @@ import datascience from '/../assets/DataScience.png';
     },
     {
       name: "MongodB",
-      icon: mongodB,
+      icon: mongodb,
     },
     {
       name: "git",
