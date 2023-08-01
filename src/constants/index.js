@@ -30,7 +30,8 @@ import {
     graphql,
     tableau,
     django,
-    IBM_Data_Science_Certificate
+    IBM_Data_Science_Certificate,
+    barefootlaw,
   } from "../assets";
 
  const navLinks = [
@@ -260,7 +261,7 @@ const projects = [
       },
   
     ],
-    image: jobit,
+    image: barefootlaw,
     source_code_link: "https://github.com/kareenamirchandani/Machine-Translation-Winnie",
     info_page: "NLP_Translator_ML",
   },
