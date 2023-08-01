@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { textVariant } from "../utils/motion";
 
 const Optiver_Market_Making_Challenge = () => {
   const navigate = useNavigate();

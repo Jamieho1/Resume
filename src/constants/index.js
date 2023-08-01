@@ -23,9 +23,14 @@ import {
     koln3d,
     bloomberg,
     excel,
-    // imperial,
+    aws,
+    vue,
+    next,
     stockhub,
-    // icinvestmentsoc,
+    graphql,
+    tableau,
+    django,
+    IBM_Data_Science_Certificate
   } from "../assets";
 
  const navLinks = [
@@ -85,6 +90,14 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Vue JS",
+    icon: vue,
+  },
+  {
+    name: "Next",
+    icon: next,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -121,16 +134,32 @@ const technologies = [
     icon: docker,
   },
   {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
     name: "MATLAB",
     icon: matlab,
   },
   {
-    name: "Bloomberg Terminal",
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Bloomberg",
     icon: bloomberg,
   },
   {
     name: "Excel",
     icon: excel,
+  },
+  {
+    name: "Tableu",
+    icon: tableau,
   },
 ];
 
@@ -251,7 +280,7 @@ const projects = [
   {
     name: "Auto Image Processing and Jig System ",
     description:
-      " Created a high-frequency trading algorithm in Python that provides market liquidity, pair trading, Index Arbitrage, bid-ask spread management, and risk management, resulting in £240 PnL per hour and 0.23 hourly Sharpe. Ranked 6th in 27 teams.",
+      " Created a high-frequency trading algorithm in Python that provides market liquidity, pair trading, Index Arbitrage, bid-ask spread management, and risk management, resulting in £240 PnL per hour and 1.23 hourly Sharpe. Ranked 6th in 27 teams.",
     tags: [
       {
         name: "Python",
@@ -260,7 +289,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/Jamieho1/Deep_Learning_for_3D_Image_Segmentation",
-    info_page: "/Optiver_Market_Making_Challenge",
+    info_page: "/Auto_Image_Processing_and_Jig_System",
   },
   {
     name: "Coursera IBM Data Science Professional Certificate",
@@ -276,7 +305,7 @@ const projects = [
         color: "green-text-gradient",
       }
     ],
-    image: tripguide,
+    image: IBM_Data_Science_Certificate,
   },
   {
     name: "Cloud Resume",
@@ -295,7 +324,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/Jamieho1/Resume",
-    info_page: "/Optiver_Market_Making_Challenge",
+    info_page: "/Cloud_Resume",
   },
 ];
 

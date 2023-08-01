@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -43,8 +43,25 @@ import orii from './company/Orii.png';
 import stockhub from './company/stockhub.png';
 import linkedin from './linkedin.png';
 import phone from './phone.jpeg';
+import aws from './tech/aws.png';
+import vue from './tech/Vue.png';
+import next from './tech/Next.png';
+import tableau from './tech/Tableau.png';
+import graphql from './tech/GraphQL.png';
+import django from './tech/Django.png';
+import IBM_Data_Science_Certificate from './IBM_Data_Science_Certificate.png';
+import ImperialCollegeLondon from './Imperial_College_London.png'; 
+import jme_logo from './jamie-logo.png';
+import Jamie_Shing_Him_Ho_Resume from './Jamie_Shing_Him_Ho_Resume.jpg';
 
 export {
+  IBM_Data_Science_Certificate,
+  Jamie_Shing_Him_Ho_Resume,
+  jme_logo,
+  ImperialCollegeLondon,
+  tableau,
+  graphql,
+  django,
   phone,
   linkedin,
   stockhub,
@@ -57,7 +74,6 @@ export {
   gmail,
   koln3d,
   matlab,
-  logo,
   backend,
   creator,
   mobile,
@@ -86,4 +102,7 @@ export {
   jobit,
   tripguide,
   python,
+  aws,
+  vue,
+  next,
 };

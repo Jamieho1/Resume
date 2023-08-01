@@ -5,8 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+import { textVariant } from "../utils/motion";
 
 const Cloud_Resume = () => {
   const navigate = useNavigate();

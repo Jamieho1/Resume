@@ -1,9 +1,6 @@
 import React from "react";
 import { useParams, Link} from "react-router-dom";
 import { projects } from "../constants";
-import Equity_Investment_Analysis_Platform from "../projects_info/Equity_Investment_Analysis_Platform";
-import NLP_Translator_ML from "../projects_info/NLP_Translator_ML";
-import Optiver_Market_Making_Challenge from "../projects_info/Optiver_Market_Making_Challenge";
 import { SectionWrapper } from "../hoc";
 
 

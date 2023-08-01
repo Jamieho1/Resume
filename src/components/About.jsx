@@ -6,6 +6,9 @@ import { styles } from '../styles';
 // import { services } from '../constants';
 import {fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
+import ResumeSection from './ResumeSection';
+import ImperialCollegeLondon from '../assets/Imperial_College_London.png'; 
+import Jamie_Shing_Him_Ho_Resume from '../assets/Jamie_Shing_Him_Ho_Resume.jpg';
 
 const ServiceCard = ({ index, title, icon}) => {
   return (
@@ -40,20 +43,31 @@ const ServiceCard = ({ index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Education.</h2>
-      </motion.div>
-      <motion.p
-        variants={fadeIn("","",0.1,1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      <div className="flex flex-wrap gap-10">
+        {/* Left side content (resume section) */}
+        <div className="flex flex-col flex-1">
+          <motion.div>
+            <p className={styles.sectionSubText}>Introduction</p>
+            <h2 className={styles.sectionHeadText}>Education.</h2>
+          </motion.div>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          >
+            <ResumeSection />
+          </motion.p>
+        </div>
 
-      >
-       Hello! Im a Final Year Student studying Imperial College London in Master of Biomedical Engineering from 10/2020 to 07/2024, On track with 2:1 Second Upper Class.
-       Click the box to check out more information.
-
-      </motion.p>
-
+        {/* Right side content (picture) */}
+        <div className="flex flex-1 justify-center items-center">
+          <motion.img
+            variants={fadeIn("right", "spring", 0.2, 0.75)}
+            src={Jamie_Shing_Him_Ho_Resume}
+            alt="My Picture"
+            className="w-100 h-100 object-cover"
+          />
+        </div>
+      </div>
       {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -61,7 +75,7 @@ const About = () => {
       </div> */}
 
     </>
-  )
+  );
 }
 
 export default SectionWrapper(About, "about");
