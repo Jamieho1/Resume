@@ -54,8 +54,10 @@ import ImperialCollegeLondon from './Imperial_College_London.png';
 import jme_logo from './jamie-logo.png';
 import Jamie_Shing_Him_Ho_Resume from './Jamie_Shing_Him_Ho_Resume.jpg';
 import barefootlaw from './Barefootlaw.png';
+
 export {
   IBM_Data_Science_Certificate,
+  barefootlaw,
   Jamie_Shing_Him_Ho_Resume,
   jme_logo,
   ImperialCollegeLondon,
